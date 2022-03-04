@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-nav {
+  padding-left: 7rem !important;
+  padding-right: 7rem !important;
+}
+
+.logo a {
+  font-size: 1.7rem !important;
+  font-weight: 700 !important;
+}
+
+.logo span {
+  color: #71c55d !important;
+}
+
+.top-content {
+  padding-top: 7rem !important;
+}
+
+.section-title h2 {
+  font-weight: 200;
+}
+
+.section-title p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card-content {
+  margin-top: 4rem;
+}
+
+.img-card {
+  height: 3.5rem;
+}
+
+.img-card img {
+  height: 100%;
+}
+
+.card-content h4 {
+  margin-top: 1.9rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card-content p {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.card-content a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #685d5de8;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.main-content {
+  margin-top: 10rem;
+}
+
+.left-content {
+  height: 34rem;
+}
+
+.left-content img {
+  height: 100%;
+}
+
+.right-content {
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+
+.right-content span {
+  font-weight: 300;
+}
+
+.right-content p {
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+
+.right-content li {
+  color: #685d5de8;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.footer {
+  margin-top: 10rem;
+  padding-top: 2rem;
+  background-color: rgb(36, 34, 34);
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+}
