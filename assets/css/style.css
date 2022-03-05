@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
 }
 
 .custom-nav {
+  font-family: "Roboto", sans-serif;
   padding-left: 7rem !important;
   padding-right: 7rem !important;
 }
@@ -18,17 +18,23 @@
   color: #71c55d !important;
 }
 
+a:hover {
+  color: #71c55d !important;
+  font-weight: bold;
+}
+
 .top-content {
-  padding-top: 7rem !important;
+  padding-top: 8rem !important;
+  font-family: "Open Sans", sans-serif;
 }
 
 .section-title h2 {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .section-title p {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .card-content {
@@ -46,7 +52,7 @@
 .card-content h4 {
   margin-top: 1.9rem;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .card-content p {
@@ -60,10 +66,11 @@
   text-decoration: none;
   color: #685d5de8;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .main-content {
+  font-family: "Roboto", sans-serif;
   margin-top: 10rem;
 }
 
@@ -87,16 +94,18 @@
 .right-content p {
   font-size: 0.75rem;
   font-weight: 200;
+  line-height: 1.4rem;
 }
 
 .right-content li {
   color: #685d5de8;
   font-size: 0.75rem;
   font-weight: 400;
+  margin: 0.9rem 0;
 }
 
 .footer {
-  margin-top: 10rem;
+  margin-top: 8rem;
   padding-top: 2rem;
   background-color: rgb(36, 34, 34);
   color: white;
@@ -106,4 +115,42 @@
   text-decoration: none;
   color: white;
   font-weight: 200;
+}
+
+.footer-left a {
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.footer-left p {
+  font-size: 0.7rem;
+}
+
+.list-menu h4 {
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.list-menu a {
+  font-size: 0.7rem;
+  text-transform: capitalize;
+}
+
+.copyrights {
+  padding: 1.3rem 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.copyrights p {
+  margin: 0;
+}
+
+.credits a {
+  margin: 0;
+  color: #71c55d;
 }
